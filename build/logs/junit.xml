@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="tests" tests="1" assertions="0" errors="1" failures="0" skipped="0" time="0.000182">
-    <testsuite name="CslucanoMath\Tests\MathTest" file="/Users/cslucano/proyectos/ci/php/tests/MathTest.php" tests="1" assertions="0" errors="1" failures="0" skipped="0" time="0.000182">
-      <testcase name="testValidArgsForSum" class="CslucanoMath\Tests\MathTest" classname="CslucanoMath.Tests.MathTest" file="/Users/cslucano/proyectos/ci/php/tests/MathTest.php" line="9" assertions="0" time="0.000182">
-        <error type="Error">CslucanoMath\Tests\MathTest::testValidArgsForSum
-Error: Class 'CslucanoMath\Math' not found
-
-/Users/cslucano/proyectos/ci/php/tests/MathTest.php:11
-</error>
-      </testcase>
+  <testsuite name="" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.001200">
+    <testsuite name="CslucanoMath\Tests\MathTest" file="/Users/cslucano/proyectos/ci/php/tests/MathTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.001200">
+      <testcase name="testValidArgsForSum" class="CslucanoMath\Tests\MathTest" classname="CslucanoMath.Tests.MathTest" file="/Users/cslucano/proyectos/ci/php/tests/MathTest.php" line="9" assertions="1" time="0.001200"/>
     </testsuite>
   </testsuite>
 </testsuites>
