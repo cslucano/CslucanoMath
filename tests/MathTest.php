@@ -9,6 +9,6 @@ class MathTest extends TestCase
     public function testValidArgsForSum()
     {
         $math = new Math();
-        $this->assertEquals(3, $math->Sum(1,2));
+        $this->assertEquals(4, $math->Sum(1,2));
     }
 }

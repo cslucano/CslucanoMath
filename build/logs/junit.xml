@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.001200">
-    <testsuite name="CslucanoMath\Tests\MathTest" file="/Users/cslucano/proyectos/ci/php/tests/MathTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.001200">
-      <testcase name="testValidArgsForSum" class="CslucanoMath\Tests\MathTest" classname="CslucanoMath.Tests.MathTest" file="/Users/cslucano/proyectos/ci/php/tests/MathTest.php" line="9" assertions="1" time="0.001200"/>
+  <testsuite name="" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.000683">
+    <testsuite name="CslucanoMath\Tests\MathTest" file="/Users/cslucano/proyectos/ci/php/tests/MathTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.000683">
+      <testcase name="testValidArgsForSum" class="CslucanoMath\Tests\MathTest" classname="CslucanoMath.Tests.MathTest" file="/Users/cslucano/proyectos/ci/php/tests/MathTest.php" line="9" assertions="1" time="0.000683"/>
     </testsuite>
   </testsuite>
 </testsuites>
