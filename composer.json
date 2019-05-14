@@ -1,0 +1,20 @@
+{
+    "name": "cslucano/php",
+    "description": "Simple php project",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7 || ^7.0 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CslucanoMath\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CslucanoMath\\Tests\\": "tests/"
+        }
+    }
+}
