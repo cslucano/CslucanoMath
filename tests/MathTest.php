@@ -6,9 +6,20 @@ use PHPUnit\Framework\TestCase;
 
 class MathTest extends TestCase
 {
-    public function testValidArgsForSum()
+    protected $math;
+
+    protected function setUp(): void
     {
-        $math = new Math();
-        $this->assertEquals(3   , $math->Sum(1,2));
+        $this->math = new Math();
+    }
+
+    public function testValidArgsForAdd()
+    {
+        $this->assertEquals(3   , $this->math->Add(1,2));
+    }
+
+    public function testValidArgsForMultiply()
+    {
+        $this->assertEquals(2   , $this->math->Multiply(1,2));
     }
 }

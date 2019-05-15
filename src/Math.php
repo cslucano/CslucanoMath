@@ -4,8 +4,13 @@ namespace CslucanoMath;
 
 class Math
 {
-    public function Sum($a, $b)
+    public function Add($a, $b)
     {
         return $a + $b;
+    }
+
+    public function Multiply($a, $b)
+    {
+        return $a * $b;
     }
 }
