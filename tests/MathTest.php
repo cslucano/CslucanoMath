@@ -15,11 +15,11 @@ class MathTest extends TestCase
 
     public function testValidArgsForAdd()
     {
-        $this->assertEquals(5   , $this->math->Add(1,2));
+        $this->assertEquals(3   , $this->math->Add(1,2));
     }
 
     public function testValidArgsForMultiply()
     {
-        $this->assertEquals(5   , $this->math->Multiply(1,2));
+        $this->assertEquals(2   , $this->math->Multiply(1,2));
     }
 }
